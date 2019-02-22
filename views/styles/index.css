@@ -9,8 +9,10 @@
     color: lightgreen;
 }
 
-nav {
+div#nav-bar {
     text-align: right;
+    background-color: black;
+    height: 30px;
 }
 
 div.weapon{
@@ -42,7 +44,17 @@ div.weaponLink{
 }
 
 table.weapons{
+    border-radius: 25px;
+    background-color: lightgreen;
     position: relative;
-    left: 25%;
-    top: 50px;
+    left: 29%;
+    border-spacing: 50px;
+    border-collapse: seperate;
+    border: solid black;
+}
+
+td.tableTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
 }

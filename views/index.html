@@ -10,15 +10,22 @@
 </head>
 
 <body style='background-color: grey;'>
-    <nav id='nav-bar'>
-        <a href="#">Login</a> |
-        <a href="#">Register</a>
-    </nav>
+    <div id='nav-bar'>
+        <nav id='nav-bar'>
+            <a href="#">Login</a> |
+            <a href="#">Register</a>
+        </nav>
+    </div>
 
     <h1 id='title'>
         Welcome to <span id='titleSpan'>Midnight!</span>
     </h1>
     <table class='weapons'>
+        <tr>
+            <td class='tableTitle' colspan='2'>
+                Catalog
+            </td>
+        </tr>
         <tr>
             <td>
                 <div class='weapon'>
@@ -29,7 +36,11 @@
             </td>
 
             <td>
-
+                <div class='weapon'>
+                    <div class='weaponLink'>
+                        <a href="#" class='weapon'>View weapon</a>
+                    </div>
+                </div>
             </td>
         </tr>
     </table>
