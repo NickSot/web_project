@@ -1,0 +1,14 @@
+#title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+
+#titleSpan {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgreen;
+}
+
+nav {
+    text-align: right;
+}
