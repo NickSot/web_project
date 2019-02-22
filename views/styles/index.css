@@ -63,6 +63,20 @@ a.navButton{
     top: 5px;
 }
 
+a#navDropDown{
+    position: relative;
+    right: 200px;
+}
+
+div.navDropDownContent{
+    display: none;
+}
+
+a#navDropDown:hover div.navDropDownContent{
+    display: block;
+    color: white;
+}
+
 div.weaponName{
     position: relative;
     top: 20px;
