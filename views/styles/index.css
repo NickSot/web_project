@@ -58,13 +58,20 @@ div.weaponName{
     font-size: 28px;
 }
 
+img#brokenScreen{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: 80%;
+}
+
 img#bloodImage1{
     background: transparent;
     background-color: grey;
     width: 300px;
     height: 300px;
     position: fixed;
-    left: 150px;
+    left: 5%;
 }
 
 img.weaponImage{
