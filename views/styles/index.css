@@ -23,20 +23,26 @@ div.weapon{
 }
 
 a.weapon{
+    position: relative;
     text-align: center;
+    top: 5px;
     text-decoration: none;
     color: brown;
 }
 
 div.weaponLink{
-    width: 80px;
+    border-radius: 10px;
+    border: solid black;
+    width: 100px;
     height: 50px;
     position: relative;
-    top: 200px;
-    left: 110px;
+    top: 230px;
+    left: 100px;
     background-color: yellow;
 }
 
-table{
-
+table.weapons{
+    position: relative;
+    left: 25%;
+    top: 50px;
 }
