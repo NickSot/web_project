@@ -16,7 +16,7 @@ div#nav-bar {
     height: 50px;
 }
 
-div.weapon{
+div.weapon {
     border-radius: 25px;
     text-align: center;
     width: 300px;
@@ -25,15 +25,16 @@ div.weapon{
     border: solid black;
 }
 
-a.weapon{
+a.weapon {
     position: relative;
     text-align: center;
     top: 5px;
     text-decoration: none;
     color: brown;
+    font-size: 18px;
 }
 
-div.weaponLink{
+div.weaponLink {
     border-radius: 10px;
     border: solid black;
     width: 100px;
@@ -44,7 +45,7 @@ div.weaponLink{
     background-color: yellow;
 }
 
-div.weaponImage{
+div.weaponImage {
     position: relative;
     top: 60px;
     left: 50px;
@@ -53,7 +54,7 @@ div.weaponImage{
     height: 100px;
 }
 
-a.navButton{
+a.navButton {
     color: green;
     text-decoration: none;
     font-size: 28px;
@@ -63,34 +64,34 @@ a.navButton{
     top: 5px;
 }
 
-a#navDropDown{
+a#navDropDown {
     position: relative;
     right: 200px;
 }
 
-div.navDropDownContent{
+div.navDropDownContent {
     display: none;
 }
 
-a#navDropDown:hover div.navDropDownContent{
+a#navDropDown:hover div.navDropDownContent {
     display: block;
     color: white;
 }
 
-div.weaponName{
+div.weaponName {
     position: relative;
     top: 20px;
     font-size: 28px;
 }
 
-img#brokenScreen{
+img#brokenScreen {
     width: 300px;
     height: 300px;
     position: fixed;
     left: 80%;
 }
 
-img#bloodImage1{
+img#bloodImage1 {
     background: transparent;
     background-color: grey;
     width: 300px;
@@ -99,12 +100,12 @@ img#bloodImage1{
     left: 5%;
 }
 
-img.weaponImage{
+img.weaponImage {
     width: 200px;
     height: 100px;
 }
 
-table.weapons{
+table.weapons {
     border-radius: 25px;
     background-color: lightgreen;
     position: relative;
@@ -114,7 +115,7 @@ table.weapons{
     border: solid black;
 }
 
-td.tableTitle{
+td.tableTitle {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
