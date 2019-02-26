@@ -10,7 +10,7 @@ h1#title {
 
 div#weaponImage {
     position: relative;
-    right: 14px;
+    right: -3px;
 }
 
 #wpImg {
@@ -20,6 +20,8 @@ div#weaponImage {
 }
 
 table.weaponSpecs {
+    border: 1px solid black;
+    border-radius: 15px;
     position: relative;
     left: 10%;
 }
