@@ -21,7 +21,25 @@ div#weaponImage {
 
 table.weaponSpecs {
     border: 1px solid black;
+    background-image: url('/images/worktable.jpg');
     border-radius: 15px;
     position: relative;
     left: 10%;
+}
+
+td.weaponPrice{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.weaponDescription{
+    font-size: 22px;
+}
+
+td.weaponMeta{
+    font-size: 20px;
+}
+
+td.weaponText{
+    color: lightgreen;
 }
