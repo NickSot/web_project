@@ -16,4 +16,8 @@ app.get('/weapon/:id', (req, res) => {
     res.render('weapon');
 });
 
+app.get('/register', (req, res) => {
+    res.render('register');
+});
+
 app.listen(3000);
