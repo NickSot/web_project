@@ -97,7 +97,6 @@ img#bloodImage1 {
     width: 300px;
     height: 300px;
     position: fixed;
-    left: 5%;
 }
 
 img.weaponImage {
@@ -109,7 +108,7 @@ table.weapons {
     border-radius: 25px;
     background-color: lightgreen;
     position: relative;
-    left: 29%;
+    left: 20%;
     border-spacing: 50px;
     border-collapse: seperate;
     border: solid black;
