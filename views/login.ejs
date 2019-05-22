@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register!</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/loginregister.css">
+</head>
+<body>
+    <div id='nav-bar'>
+        <nav id='nav-bar'>
+            <a href="#" class = 'navButton' id = 'navDropDown'>Categories</a>
+            <div class='navDropDownContent'>
+                <a href="#">Handguns</a>
+                <a href="#">Assault</a>
+                <a href="#">Shotguns</a>
+            </div>
+            <a href="/login" class = 'navButton'>Login</a>
+            <a href="/register" class = 'navButton'>Register</a>
+        </nav>
+    </div>
+
+    <h1 id='title'>
+        Login
+    </h1>
+
+    <div class='userCredentials'>
+        <h2 style='text-align: center;'>
+            Registration form
+        </h2>
+
+        <form action="/login" method="POST">
+            Username: <input type="text" name="Username" id="Username">
+            <br>
+            <br>
+            Password: <input type="password" name='Password' id='Password'>
+            <br>
+            <br>
+            <input type="submit" value='Submit' style='position: relative; left: 40%;'>
+        </form>
+    </div>
+</body>
+</html>
