@@ -30,3 +30,37 @@ td.weaponDescription{
 td.weaponMeta{
     font-size: 20px;
 }
+
+div.cart_link{
+    position: relative;
+    top: -10px;
+    left: 52%;
+}
+
+a.cart_link {
+    color: brown;
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: orange;
+}
+
+div.cancel_link{
+    position: relative;
+    top: 25px;
+    left: 40%;
+}
+
+a.cancel_link {
+    color: brown;
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: orange;
+}
