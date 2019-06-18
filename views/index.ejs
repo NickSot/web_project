@@ -12,11 +12,12 @@
 <body>
     <div id='nav-bar'>
         <nav id='nav-bar'>
+            <a href="/" class = 'navButton'>Midnight</a>
             <a href="#" class = 'navButton' id = 'navDropDown'>Categories</a>
-            <div class='navDropDownContent'>
-                <a href="#">Handguns</a>
-                <a href="#">Assault</a>
-                <a href="#">Shotguns</a>
+            <div class='navDropDownContent' id = 'navDropDownContent'>
+                <a href="#" class='navDropDownContent'>Handguns</a>
+                <a href="#" class='navDropDownContent'>Assault</a>
+                <a href="#" class='navDropDownContent'>Shotguns</a>
             </div>
             <a href="/login" class = 'navButton'>Login</a>
             <a href="/register" class = 'navButton'>Register</a>
@@ -31,7 +32,7 @@
 
     <img src="./images/brokenScreen.png" id='brokenScreen' alt="">
 
-<table class='weapons'>
+    <table align='center' class='weapons'>
         <tr>
             <td class='tableTitle' colspan='2'>
                 Catalog
@@ -47,10 +48,11 @@
                     <div class='weaponImage'>
                         <img class='weaponImage' src="./images/ak47.jpeg" alt="AK 47">
                     </div>
-
-                    <div class='weaponLink'>
-                        <a href="/weapon/1" class='weapon'>View weapon</a>
-                    </div>
+                    <a href="/weapon/1" class='weapon'>
+                        <div class='weaponLink'>
+                            View weapon
+                        </div>
+                    </a>
                 </div>
             </td>
 
@@ -63,10 +65,12 @@
                     <div class='weaponImage'>
                         <img class='weaponImage' src="./images/tomygun.jpeg" alt="AK 47">
                     </div>
-
-                    <div class='weaponLink'>
-                        <a href="/weapon/2" class='weapon'>View weapon</a>
-                    </div>
+                    
+                    <a href="/weapon/2" class='weapon'>
+                        <div class='weaponLink'>
+                            View weapon
+                        </div>
+                    </a>
                 </div>
             </td>
         </tr>
@@ -82,9 +86,11 @@
                         <img class='weaponImage' src="./images/p90.PNG" alt="AK 47">
                     </div>
 
-                    <div class='weaponLink'>
-                        <a href="/weapon/3" class='weapon'>View weapon</a>
-                    </div>
+                    <a href="/weapon/3" class='weapon'>
+                        <div class='weaponLink'>
+                            View weapon
+                        </div>
+                    </a>
                 </div>
             </td>
 
@@ -98,13 +104,17 @@
                         <img class='weaponImage' src="./images/m4a1.png" alt="AK 47">
                     </div>
 
-                    <div class='weaponLink'>
-                        <a href="/weapon/4" class='weapon'>View weapon</a>
-                    </div>
+                    <a href="/weapon/4" class='weapon'>
+                        <div class='weaponLink'>
+                            View weapon
+                        </div>
+                    </a>
                 </div>
             </td>
         </tr>
     </table>
+
+    <script src='./js/navButtonHover.js'></script>
 </body>
 
 </html>
