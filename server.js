@@ -20,6 +20,10 @@ app.get('/register', (req, res) => {
     res.render('register');
 });
 
+app.get('/cart', (req, res) => {
+    res.render('cart');
+});
+
 app.post('/register', (req, res) => {
     res.redirect('/');
 });

@@ -2,6 +2,23 @@ body {
     background-color: grey;
 }
 
+div.cart_link{
+    position: relative;
+    top: 10px;
+    left: 65%;
+}
+
+a.cart_link {
+    color: brown;
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: orange;
+}
+
 h1#title {
     color: brown;
     font-size: 30px;
@@ -41,5 +58,5 @@ td.weaponMeta{
 }
 
 td.weaponText{
-    color: lightgreen;
+    color: whitesmoke;
 }
